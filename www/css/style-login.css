@@ -1,0 +1,28 @@
+.conteudo{
+    margin-top: 70px;
+}
+.check-lembrarSenha{
+    margin-left: 10px;
+}
+.btn{
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 10px;
+}
+body{
+    background-color: darkslategrey;
+    background-repeat: round;
+    color: white;
+}
+.logo{
+    margin-top: 20px;
+    size: 20px;
+    width: 90%;
+}
+a{
+  color: white;
+  width: 10px;
+}
+input{
+   color:white;    
+}

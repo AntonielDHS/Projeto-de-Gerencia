@@ -1,0 +1,21 @@
+img{
+    width: 330px;
+}
+.materialize-red.darken-3 {
+    background-color: #a21318 !important;
+  }
+  .materialize-red-text.text-darken-3 {
+    color: #a21318 !important;
+  }
+
+.red {
+    background-color: #F44336 !important;
+  }
+  .btn{
+    margin-top: 30px;
+    width: 50%;
+    border-radius: 5px;
+}
+a{
+    color: white;
+}

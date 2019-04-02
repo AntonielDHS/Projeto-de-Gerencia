@@ -1,0 +1,80 @@
+#back{
+    color: white;
+    font-style: oblique;
+}
+.conteudo1{
+    margin-top: 50px;
+}
+.check-lembrarSenha{
+    margin-left: 10px;
+}
+.btn{
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+}
+body{
+    background-image: url(../images/fundo.jpg);
+    background-repeat: round;
+}
+.logo{
+    margin-top: 20px;
+    size: 20px;
+}
+div{
+    margin: 10px;
+    }
+.carda-panel {
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    padding: 24px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: 
+  }
+  .row1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 25%;
+    
+  }
+  .cols .row1 {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }  
+  .row1 .cols.s12 {
+   
+    
+    left: auto;
+    right: auto;
+  }
+  .waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+  }
+  .materialize-red.darken-3 {
+    background-color: #a21318 !important;
+  }
+  .materialize-red-text.text-darken-3 {
+    color: #a21318 !important;
+  }
+
+.red {
+    background-color: #F44336 !important;
+  }

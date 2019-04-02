@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>cadastrar produtos</title>
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="../css/materialize.css" />
+    <link rel="stylesheet" href="../css/cadastrarprodutos.css" />
+
+</head>
+
+<body>
+    <div id="produtos">
+        <a href="../index.html"><img id="back" src="../svg/back-white.png" width="30px" margin-top="10px"> </img></a>
+
+        <center> <button class="btn waves-effect  red darken-3" onclick="ativaModal()">
+                adicionar Produto
+            </button>
+        </center>
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <span id="closeModal" class="close" onclick="fechaModal(),carregarPersonagens()">&times;</span>
+
+                <b>imagem</b> <input class="btn-file" type="file" name="arquivos" accept="image/png, image/jpeg"
+                    onchange="showImage(this)" />
+                <span id="myImage"><img id='img-upload' style="width: 100px; height: 100px;" /></span><br>
+                <b>Nome</b> <input type="text" id="myProd">
+                <b>descrição:</b> <input type="text" id="descricao">
+                <b>ingredientes</b> <input type="text" id="ingredientes">
+                <b> preco:</b> <input type="text" id="preco">
+                <br>
+                <center>
+                    <button onclick="addProdutos()">Concluir</button>
+                    <button onclick="fechaModal()">Cancelar</button>
+                </center>
+            </div>
+        </div>
+        <div id="my-prod" class="my-produtos">
+            <center>Não temos produtos cadastrados</center>
+        </div>
+    </div>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/login-cadastro.js"></script>
+    <script src="../js/cadastrarProdutos.js"></script>
+    <script src="../js/sweetalert.min.js"></script>
+</body>
+
+</html>
